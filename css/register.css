@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 60vh;
+    background-image: url('https://i.pinimg.com/564x/fd/b2/90/fdb290ab3db1358c12abd6860cd39e25.jpg');
+    background-color: black; /* Fondo negro como fallback */
+    background-size: auto;
+    background-repeat: repeat;
+    min-height: 70vh;
+    overflow-x: hidden;
+}
+/* Estilos para el contenedor principal */
+.box-area {
+    width: 900px;
+    max-width: 100%;
+    margin: auto; /* Centra el contenedor horizontalmente */
+    background: white; /* Fondo blanco */
+    border-radius: 20px;
+    padding: 20px;
+}
+
+/* Estilos para el contenedor negro */
+.left-box {
+    background: black;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+}
+
+/* Estilos para la imagen dentro del contenedor negro */
+.featured-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para el formulario dentro del contenedor blanco */
+.right-box {
+    padding: 20px;
+}
+
+/* Estilos responsivos */
+@media only screen and (max-width: 768px) {
+    .box-area {
+        width: 100%;
+        border-radius: 0; /* Elimina el radio de esquina en pantallas pequeñas */
+    }
+
+    .left-box {
+        border-radius: 0; /* Elimina el radio de esquina en pantallas pequeñas */
+    }
+}

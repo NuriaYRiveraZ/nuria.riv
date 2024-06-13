@@ -1,0 +1,36 @@
+.profile-head {
+    transform: translateY(5rem);
+}
+
+.cover {
+    background-image: url(https://i.pinimg.com/564x/f6/5b/14/f65b1455cedde7fbb19c910cf54e5afa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    background-image: url('https://i.pinimg.com/564x/fd/b2/90/fdb290ab3db1358c12abd6860cd39e25.jpg');
+    background-color: black; /* Fondo negro como fallback */
+    background-size: auto;
+    background-repeat: repeat;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.custom-btn {
+    margin-top: 10px;
+    font-size: 0.875rem; /* Tamaño de fuente más pequeño */
+    border-radius: 5px; /* Borde cuadrado */
+    background-color: white !important; /* Fondo blanco */
+    color: black !important; /* Letras negras */
+    border-color: black !important; /* Color del borde */
+    position: absolute; /* Posición absoluta */
+    right: 1230px; /* Alinear a la derecha */
+}
+
+
+@media (max-width: 768px) {
+    .mt-md-5-mobile {
+        margin-top: 3rem !important; /* Ajusta este valor según sea necesario */
+    }
+}
